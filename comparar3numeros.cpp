@@ -19,7 +19,7 @@ int main(){
 	 	mayor = n3;
 	 }
 	 
-	 //calcular el menor
+	 //calcular el menor     y  &&    o  ||
 	 if((n1<n2) && (n1<n3)){
 	 	menor = n1;
 	 }else if((n2<n1)&& (n2<n3)){
