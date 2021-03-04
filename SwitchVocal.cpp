@@ -11,7 +11,7 @@ int main(){
 	 cin>>letra; 
 	 
 	 switch(letra){
-	 	case 'a':
+	 	case 'a' :
 	    case 'e':
 	    case 'i':
 	    case 'o':
