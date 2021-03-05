@@ -7,7 +7,8 @@ using namespace std;
 int main(){
 	
 	//1. declaracion de variables
-	  int opcion;
+ 
+	  int opcion = 0;
 	  float monto,saldo=1000;
 	  
 	  //2. Ingreso de datos
