@@ -4,10 +4,11 @@ using namespace std;
 
 int main(){
 	
-      int notas[2500],n,mayor=0,menor=100;
+      int notas[15],n,mayor=0,menor=100;
+      int posMayor=0,posMenor=0;
       
       cout<<"Digite el numero de Notas a Ingresar: ";
-      cin>>n;
+      cin>>n; 
       
       for(int i=0;i<n;i++){
       	 cout<<(i+1)<<". Digite Nota: ";
@@ -15,16 +16,18 @@ int main(){
       	 
 		   if(notas[i]>mayor){  //hallar la nota mayor
       	 	   mayor = notas[i];
+      	 	    posMayor= i;  
 		   }
 		   
 		   if(notas[i]<menor){
 		   	   menor = notas[i];
+		   	   posMenor=i;
 		   }
   
 	  }
       
-      cout<<"\n La nota Mayor es: "<<mayor; 
-      cout<<"\n La nota Menor es: "<<menor;
+      cout<<"\n La nota Mayor es: "<<mayor<<" Posicion ["<<(posMayor+1)<<"]"; 
+      cout<<"\n La nota Menor es: "<<menor<<" Posicion ["<<(posMenor+1)<<"]";
 	
 	getch();
 	return 0;
