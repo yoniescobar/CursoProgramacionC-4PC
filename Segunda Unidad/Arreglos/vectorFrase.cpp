@@ -19,7 +19,7 @@ int main(){
 	   
 	  for(int i=0;i<longitud;i++){
 	  	   switch(frase[i]){
-	  	   	    case 'a': vocal_a++; break;
+	  	   	    case 'a': vocal_a++; break; //busca las letras a y suma los que encuente
 	  	   	    case 'e': vocal_e++; break;
 	  	   	    case 'i': vocal_i++; break;
 	  	   	    case 'o': vocal_o++; break;

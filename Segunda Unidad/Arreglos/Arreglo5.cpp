@@ -16,12 +16,12 @@ int main(){
       	 
 		   if(notas[i]>mayor){  //hallar la nota mayor
       	 	   mayor = notas[i];
-      	 	    posMayor= i;  
+      	 	    posMayor= i;  //almacena el indice que tiene la nota mayor
 		   }
 		   
 		   if(notas[i]<menor){
 		   	   menor = notas[i];
-		   	   posMenor=i;
+		   	   posMenor=i; //almacena el indice que tiene la nota menor
 		   }
   
 	  }
