@@ -7,36 +7,36 @@ using namespace std;
 
 int main(){
 	
-	
 	int matrizA[100][100],suma=0;
-	int fila,col;
+	int fila,col,pares=0;
 	
 	cout<<"\n Ingrese fila de la Matriz: ";
 	cin>>fila;
 	cout<<"\n Ingrese columna de la Matriz: ";
 	cin>>col;
-
-	//llenando la matriz
-	cout<<"\n Ingrese los datos para la Matriz de "<<fila<<" X "<<col<<": "<<endl<<endl;
 	
+	//llenando la matriz
+	cout<<"\n Ingrese los datos para la Matriz de "<<fila<<" X "<<col<<": "<<endl<<endl;	
 	for(int i=0;i<fila;i++){ //recorre las filas;
 		for(int j=0;j<col;j++){ //recorre las columnas
 		   cout<<"\nIngrese el valor en la Matriz  en Pos["<<i<<"]["<<j<<"]: ";
 		   cin>>matrizA[i][j];
 		   
 		}
-	}
-	
-	//suma de los valores de la matriz
-	//pares
+	}	
+	//suma de los valores de la matriz, pares, suma, impares, suma
 	for(int i=0;i<fila;i++){ //recorre las filas;
 		for(int j=0;j<col;j++){ //recorre las columnas
-		  suma = suma + matrizA[i][j];
+		  suma = suma + matrizA[i][j]; //suma de todo la matriz
+		  
+		  if(matrizA[i][j]%2==0){ //pares
+		  	pares++;
+		  }
+		  
 		   
 		}
 	}
 	
-
 	//mostrar la matriz A
 	cout<<"\n\n Mostrando los valores de la Matriz: "<<endl;
 	for(int i=0;i<fila;i++){ //recorre las filas;
@@ -47,6 +47,7 @@ int main(){
 	}
 	
 	cout<<"\n La suma de los valores de la matriz es: "<<suma;
+	cout<<"\n Pares: "<<pares;
 	
 	
 	
