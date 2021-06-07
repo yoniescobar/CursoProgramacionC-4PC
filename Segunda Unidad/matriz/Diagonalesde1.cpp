@@ -7,6 +7,8 @@ int main(){
 	
 	int n,matriz[100][100];
 	
+	cout<<"\n Ingrese el tamanio de la Matriz: ";
+	cin>>n;
 	//algoritmo para llenar la primera diagonal con 1
 	
 		for(int i=0;i<n;i++){ //recorre las filas
@@ -18,7 +20,7 @@ int main(){
 				matriz[i][j]=0;
 			}
 		 }
-		 
+	}
 	 cout<<"\n Mostrar los valores de la Matriz: "<<endl;
 	 
 	 for(int i=0;i<n;i++){ //recorre las filas
