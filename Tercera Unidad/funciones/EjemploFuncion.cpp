@@ -5,12 +5,14 @@ using namespace std;
 //Prototipo de funcion
 float numMayor(int x, int y);
 int numMenor(int x, int y);
+int suma(int x, int y);
+
 
 int main(){
 	//Principal 
 	 int n1,n2;
 	 float mayor;
-	 int menor;
+	 int menor,suma,resta;
 	 
 	 cout<<"Ingrese Numero 1: ";
 	 cin>>n1;
@@ -22,6 +24,7 @@ int main(){
 	 
 	 cout<<"\n El Mayor de los 2 numeros es: "<<mayor<<endl;
 	 cout<<"\n El Menor de los 2 numeros es: "<<menor<<endl;
+
 	 
 	getch();
 	return 0;
@@ -33,7 +36,7 @@ float numMayor(int x, int y){ //Realiza la tarea solicitada.
    if(x>y){
    		numMayor = x;
    }else{
-   		numMayo = y;
+   		numMayor = y;
    }
 
 	return numMayor;	
