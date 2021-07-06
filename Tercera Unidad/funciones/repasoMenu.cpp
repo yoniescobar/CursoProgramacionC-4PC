@@ -6,7 +6,6 @@ void ingresarDatos();
 void sumarDatos(int x, int y);
 void restarDatos(int x, int y);
 
-
 int num1,num2;
 
 int main(){
@@ -34,6 +33,8 @@ int main(){
 	  	     case 3: system("cls");
 	  	     	    restarDatos(num1,num2);
 	  	     	break;	
+	  	     	
+	  	     	
 	  	     	
 	  	     case 0:  system("cls");
 	  	         cout<<"\n Hasta pronto ....!!";
