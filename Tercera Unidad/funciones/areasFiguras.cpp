@@ -27,7 +27,7 @@ int main(){
 			 	case 1: areaRectangulo(); break;
 			 	//case 2: areaTriangulo(); break;
 			 	//case 3: areaCirculo(); break;
-			 	
+			
 			 	default: system("cls");
 			 		cout<<"\n Opcion No Valida";	
 			 }	  	  

@@ -6,7 +6,7 @@ void conversion(int dias,int&,int&,int&);
 
 int main(){
 	
-	int dias=0,horas=0,min=0,seg=0;
+	int dias,horas,min,seg;
 		
 	cout<<"\n Ingrese cantidad de dias: ";
 	cin>>dias;
