@@ -1,18 +1,21 @@
 #include <iostream>
 #include <conio.h>
+#define tam 5
 using namespace std;
 
-void pedirDatos();
-int calcularSuma(int vec[], int);
+int vec[100];
 
-int vec[100],tam;
+void pedirDatos();
+int calcularSuma(int vec[tam]);
+
+
 
 int main(){
 	   
 	     
 	   pedirDatos();
 	   
-	   cout<<"\n La suma de los valores es: "<<calcularSuma(vec,tam);
+	   cout<<"\n La suma de los valores es: "<<calcularSuma(vec);
 	 
 	
 	getch();
@@ -28,7 +31,8 @@ void pedirDatos(){
 	   }
 	
 }
-int calcularSuma(int vec[], int tam){
+int calcularSuma(int vec[tam]){
+
 	  
 	  int suma=0;
 	  
