@@ -11,7 +11,7 @@ struct atleta{
 
 int main(){
 	
-	 int nAtletas,mayor=0,pos=0;
+	 int nAtletas,mayor=0,pos=0,menor=1000;
 	  
 	 cout<<"\n Digite el numero de Atletas: ";
 	 cin>>nAtletas;
@@ -27,6 +27,7 @@ int main(){
 	 	 	 	 mayor = atletas[i].numero_medallas;
 	 	 	 	 pos = i;
 			   }
+			   
 	 	 	 
 		  }
 	
