@@ -27,8 +27,8 @@ void cargarAleatorios(){
 	
 	srand(time(NULL)); //generar un numero aleatorio
 	for(int i=0;i<tam;i++){
-		numero = 1 + rand()%(100);
-		vec[i] = numero;
+	vec[i]  = 1 + rand()%(100);
+		
 		
 	}
 
