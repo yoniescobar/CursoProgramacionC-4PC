@@ -13,15 +13,16 @@ int main(){
 	  char cadena2[30];
 	  
 	  cout<<"\n Ingrese una cadena de texto: ";
-	  gets(cadena1);  //oso
+	  gets(cadena1);  //reconocer
 	  
-	  strcpy(cadena2,cadena1);
-	  strrev(cadena2); //oso
+	  strcpy(cadena2,cadena1); //reconocer
+	  
+	  strrev(cadena2); //leer la palabra al reves
 	                 
 	  if(strcmp(cadena1,cadena2)==0){
-	  	cout<<"\n\nLa cadena ingresada es Palindrome ";
+	  	cout<<"\n Es Palindromo ";
 	  }else{
-	  		cout<<"\n\nLa cadena ingresada NOO es Palindrome ";
+	  		cout<<"\n  NO es Palindromo ";
 	  }
 	  
 	  
